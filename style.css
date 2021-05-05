@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(img/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position-y: -400px;
+    background-size: 50%;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-y: 45vh;
+    background-position-x: 50vw;
+    
+
+}
+.card{
+    background-color: white;
+    height: 380px;
+    width: 360px;
+    margin-top: 15%;
+    border-radius: 10px;
+
+}
+.card h1{
+    text-align: center;
+    font-size: 18px;
+}
+.card h2{
+    margin-top:10px;
+    text-align: center;
+    font-size: 15px;
+    color:  hsl(0, 0%, 59%);
+}
+.capa{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foto{
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -50px;
+    margin-left: 36%;
+}
+.numeros{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-areas: "n1 n2 n3";
+    padding-left: 50px;
+    padding-top: 20px;
+    border-top: 1px solid  hsl(0, 0%, 59%);
+}
+.numero1{
+    grid-area: n1;
+}
+.numero2{
+    grid-area: n2;
+}
+.numero3{
+    grid-area: n3;
+}
+p{
+    margin-top: 30px;
+    font-size: 11px;
+    color:  hsl(0, 0%, 59%);
+}
+#like{
+    margin-left: 10px;
+}
